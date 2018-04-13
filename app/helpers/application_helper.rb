@@ -9,4 +9,7 @@ module ApplicationHelper
 		# end #dong 10;
 		pages_title.empty? ? base_title : pages_title + "|" + base_title
 	end
+
+	def gravatar_for user
+	end
 end
